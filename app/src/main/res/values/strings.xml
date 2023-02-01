@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ChatApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email">Email</string>
+    <string name="sign_up">Register</string>
+    <string name="password">Password</string>
+    <string name="re_enter_password">Re-enter Password</string>
+    <string name="already_have_an_account">Already have an Account?</string>
+    <string name="sign_in">Login</string>
+    <string name="don_t_have_an_account">Don\'t have an Account?</string>
+    <string name="select_n_photo">select \nPhoto</string>
+    <string name="new_message">New Message</string>
+    <string name="logout">Logout</string>
+    <string name="leonard_etila">Leonard Etila</string>
+    <string name="username">Username</string>
+    <string name="personName">PersonName</string>
+    <string name="welcome">Login</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="sending">I am sending this message</string>
+</resources>
