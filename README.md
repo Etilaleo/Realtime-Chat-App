@@ -13,5 +13,5 @@ Run on Android studio, delete the previous firebase path and add yours
 ![](app/src/main/res/drawable-v24/screenshot4.jpg)
 
 ## Acknowledgments
-I'm am grateful to God for the grace to be consistent in this work and also to my parents and friends, that's 
-support me in this journey
+I'm am grateful to God for the grace to be consistent in this work and also to my parents and friends, that has
+supported me on this journey
