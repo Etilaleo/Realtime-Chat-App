@@ -10,6 +10,7 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.AppBarConfiguration
+import androidx.navigation.ui.NavigationUI.setupWithNavController
 import androidx.navigation.ui.setupWithNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.chatapp.adapters.MessageReceiveAdapter
@@ -49,8 +50,7 @@ class ChatScreen : Fragment() {
         val mainUserEmail = data?.getString("mainUserEmail")
 
         val navController = findNavController()
-        val appBarConfiguration = AppBarConfiguration(navController.graph)
-        binding.toolbar.setupWithNavController(navController, appBarConfiguration)
+        setupWithNavController(binding.toolbar, navController)
         binding.toolbar.title = username
 
         messageAdapter = GroupieAdapter()
